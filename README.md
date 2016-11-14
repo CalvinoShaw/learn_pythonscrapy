@@ -1,2 +1,3 @@
 # learn_pythonscrapy
-# learn_pythonscrapy
+
+尝试用 python 做爬虫抓取某在线资料库，并作简单自然语言处理，目前 TODO 状态……
