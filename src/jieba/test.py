@@ -15,7 +15,7 @@ f = open("test.txt","r") #读取文本
 
 string=f.read().decode('utf-8')
   
-words = pseg.cut(string) #进行分词  
+words = pseg.cut(string) #进行分词
 result=""  #记录最终结果的变量  
 for w in words:  
     result+= str(w.word)+"/"+str(w.flag) #加词性标注  
